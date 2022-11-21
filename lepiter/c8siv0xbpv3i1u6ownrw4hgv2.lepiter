@@ -957,6 +957,40 @@
 					"uidString" : "xIpCcFqqDQC64+7DAyd5Xg=="
 				},
 				"url" : "attachments/5lcl43opbtgj2wthhfpjwef6m/Captura de pantalla 2022-11-21 a la(s) 11.30.13.png"
+			},
+			{
+				"__type" : "youtubeSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T11:48:49.913075+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T11:49:06.141464+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IfWeiVqqDQC7TV3QAyd5Xg=="
+				},
+				"youtubeUrl" : "https://www.youtube.com/watch?v=JG5-QZ6BxPs&list=PL2okA_2qDJ-kCHVcNXdO5wsUZJCY31zwf&index=6&ab_channel=InriaLearningLab"
 			}
 		]
 	},
