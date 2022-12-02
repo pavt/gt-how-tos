@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-26T23:34:33.995527+01:00"
+						"dateAndTimeString" : "2022-12-02T17:23:56.358799-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,118 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-26T23:34:33.995527+01:00"
+						"dateAndTimeString" : "2022-12-02T17:23:56.358799-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rqCe2j+rDQCmIfonDidEtg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The following code creates two processes using the message fork sent to a block. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T17:24:04.459045-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T17:24:04.459045-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "9Dga2z+rDQCmIiPvDidEtg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "In each process, we enumerate numbers: the first process from 1 to 10 and the second one form 101 to 110. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T17:24:23.917815-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T17:24:23.917815-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vyRD3D+rDQCmI13PDidEtg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "During each loop step, using the expression Processor yield, the current process mentions the\nscheduler that it can relinquish the CPU to give a chance to other processes\nwith the same priority to get executed. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T17:23:45.974379-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T17:24:23.920356-03:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "We say that the active process relinquishes its execution."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -66,14 +177,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-26T23:42:09.266988+01:00"
+						"dateAndTimeString" : "2022-12-02T17:30:25.24809-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Slx9FcmqDQCMzBH/B3vy/Q=="
 				},
-				"code" : "ProfStef go"
+				"code" : "[ 1\r\tto: 10\r\tdo: [ :i | \r\t\ti trace;\r\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork.\r\r[ 101\r\tto: 110\r\tdo: [ :i | \r\t\ti\r\t\t\ttrace;\r\t\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -100,14 +211,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-26T23:43:30.488832+01:00"
+						"dateAndTimeString" : "2022-12-02T17:30:44.102186-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "57CJFsmqDQCMz5z/B3vy/Q=="
 				},
-				"code" : "ProfStef next view"
+				"code" : "1 trace"
 			}
 		]
 	},
@@ -130,12 +241,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-26T23:41:58.813742+01:00"
+			"dateAndTimeString" : "2022-12-02T17:23:17.977346-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "ProfStef"
+		"title" : "Green threads example"
 	},
 	"uid" : {
 		"__type" : "uuid",
