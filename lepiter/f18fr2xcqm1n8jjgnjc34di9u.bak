@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T18:29:08.414412-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T18:29:13.812581-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cvRmw0CrDQCmZw7aDidEtg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## A simple example"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-12-02T17:23:56.358799-03:00"
 					}
 				},
@@ -177,14 +214,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T17:30:25.24809-03:00"
+						"dateAndTimeString" : "2022-12-02T17:47:33.845193-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Slx9FcmqDQCMzBH/B3vy/Q=="
 				},
-				"code" : "[ 1\r\tto: 10\r\tdo: [ :i | \r\t\ti trace;\r\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork.\r\r[ 101\r\tto: 110\r\tdo: [ :i | \r\t\ti\r\t\t\ttrace;\r\t\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork"
+				"code" : "[ 1\r\tto: 10\r\tdo: [ :i | \r\t\ti trace;\r\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork.\r[ 101\r\tto: 110\r\tdo: [ :i | \r\t\ti\r\t\t\ttrace;\r\t\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T18:42:46.87286-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T18:42:50.929091-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cq1z9ECrDQCmaCZrDidEtg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Creating processes"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -200,7 +274,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-26T23:42:20.509395+01:00"
+						"dateAndTimeString" : "2022-12-02T18:42:55.328708-03:00"
 					}
 				},
 				"editEmail" : {
@@ -211,14 +285,48 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T17:30:44.102186-03:00"
+						"dateAndTimeString" : "2022-12-02T18:43:02.219421-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "57CJFsmqDQCMz5z/B3vy/Q=="
+					"uidString" : "1pkV9UCrDQCmaW6BDidEtg=="
 				},
-				"code" : "1 trace"
+				"code" : "| pr |\npr := [ 1 to: 10 do: [ :i | i traceCr ] ] newProcess.\npr inspect"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T18:48:23.300902-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-02T18:48:23.867578-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OA+iCEGrDQCmbtgDDidEtg=="
+				},
+				"code" : "| pr |\npr := [ :max |\n1 to: max do: [ :i | i crTrace ] ] newProcessWith: #(20).\npr resume"
 			}
 		]
 	},
@@ -241,12 +349,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-02T17:23:17.977346-03:00"
+			"dateAndTimeString" : "2022-12-02T18:27:36.928351-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Green threads example"
+		"title" : "Concurrent programming in Pharo"
 	},
 	"uid" : {
 		"__type" : "uuid",
