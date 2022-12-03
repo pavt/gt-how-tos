@@ -471,6 +471,43 @@
 				"code" : "| pr |\npr := [ :max |\n1 to: max do: [ :i | i crTrace ] ] newProcessWith: #(20).\npr suspend.\rpr resume.\npr isTerminated"
 			},
 			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-03T08:54:19.746456-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-03T08:54:20.908437-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jGLV2UyrDQC469s+C8B9WQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##Creating and scheduling in one go"
+			},
+			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -525,12 +562,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-02T18:27:36.928351-03:00"
+			"dateAndTimeString" : "2022-12-03T14:09:31.859319-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Concurrent programming in Pharo"
+		"title" : "1.2 A simple example"
 	},
 	"uid" : {
 		"__type" : "uuid",
