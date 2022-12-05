@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T13:28:11.838847-03:00"
+						"dateAndTimeString" : "2022-12-05T13:38:44.574189-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T13:28:12.774728-03:00"
+						"dateAndTimeString" : "2022-12-05T13:46:09.29751-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "EYEQ6XirDQCWBIqWCC94nA=="
+					"uidString" : "fEPHDnmrDQCWaNbiCC94nA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Based on the book:  https://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.pdf "
+				"string" : "Based on the Concurrent Programming in Pharo book"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T13:38:48.199264-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T13:40:27.023155-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "r27ODnmrDQCWaa+wCC94nA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[Link to the online book](https://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.pdf) "
 			},
 			{
 				"__type" : "textSnippet",
@@ -71,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T13:29:26.00454-03:00"
+									"dateAndTimeString" : "2022-12-05T13:29:50.071116-03:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[]]"
+							"string" : "[[1.1 Studying an example ]]"
 						},
 						{
 							"__type" : "textSnippet",
@@ -119,6 +156,117 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[1.2 A simple example]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:52:00.772587-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:52:04.09724-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "MYipPXmrDQCWn2tlCC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[1.3 Process ]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:59:13.529762-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:59:22.164137-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "GVLuV3mrDQCWxaNhCC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[1.4 Process Lifetime ]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T14:04:13.742343-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T14:04:13.742343-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "L5HsaXmrDQCW88N9CC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						},
 						{
 							"__type" : "textSnippet",
@@ -252,7 +400,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T14:08:51.850618-03:00"
+						"dateAndTimeString" : "2022-12-05T13:46:39.268689-03:00"
 					}
 				},
 				"uid" : {
@@ -262,7 +410,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Chapter 1:"
+				"string" : "## Chapter 1: Concurrent programming in Pharo"
 			}
 		]
 	},

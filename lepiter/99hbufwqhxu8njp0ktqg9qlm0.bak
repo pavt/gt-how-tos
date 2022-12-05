@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T13:38:44.574189-03:00"
+						"dateAndTimeString" : "2022-12-05T13:59:44.641898-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T13:46:09.29751-03:00"
+						"dateAndTimeString" : "2022-12-05T14:00:02.384413-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "fEPHDnmrDQCWaNbiCC94nA=="
+					"uidString" : "DUidWHmrDQCW3KKcCC94nA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Based on the Concurrent Programming in Pharo book"
+				"string" : "A process can be in different states depending on its life-time **(runnable, suspended, executing, waiting, terminated)** as shown in Figure 1-1. We look at such states now."
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pictureSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T13:38:48.199264-03:00"
+						"dateAndTimeString" : "2022-12-05T14:00:42.496126-03:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T13:40:27.023155-03:00"
+						"dateAndTimeString" : "2022-12-05T14:00:45.947848-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "r27ODnmrDQCWaa+wCC94nA=="
+					"uidString" : "kzRVXXmrDQCW4f1aCC94nA=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[Link to the online book](https://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.pdf) "
+				"url" : "attachments/99hbufx5x41vk7adazrdbgl94/Captura de pantalla 2022-12-05 a la(s) 13.54.45.png"
 			},
 			{
 				"__type" : "textSnippet",
@@ -97,7 +94,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T13:29:24.953334-03:00"
+									"dateAndTimeString" : "2022-12-05T14:01:19.329247-03:00"
 								}
 							},
 							"editEmail" : {
@@ -108,17 +105,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T13:29:50.071116-03:00"
+									"dateAndTimeString" : "2022-12-05T14:01:24.688896-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "5SFK7XirDQCWBax6CC94nA=="
+								"uidString" : "YJf+XnmrDQCW5eAOCC94nA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[1.1 Studying an example ]]"
+							"string" : " **executing** - the process is currently executing"
 						},
 						{
 							"__type" : "textSnippet",
@@ -134,7 +131,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T14:08:15.395339-03:00"
+									"dateAndTimeString" : "2022-12-05T14:01:34.787996-03:00"
 								}
 							},
 							"editEmail" : {
@@ -145,17 +142,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T14:09:31.870466-03:00"
+									"dateAndTimeString" : "2022-12-05T14:02:10.151289-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "ZzDCNlGrDQCIan6/DISMnw=="
+								"uidString" : "bmUFYHmrDQCW65h7CC94nA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[1.2 A simple example]] "
+							"string" : "**runnable** - the process is scheduled. This process is in one of the priority lists of the scheduler."
 						},
 						{
 							"__type" : "textSnippet",
@@ -171,7 +168,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T13:52:00.772587-03:00"
+									"dateAndTimeString" : "2022-12-05T14:01:41.671634-03:00"
 								}
 							},
 							"editEmail" : {
@@ -182,17 +179,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T13:52:04.09724-03:00"
+									"dateAndTimeString" : "2022-12-05T14:02:12.821858-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "MYipPXmrDQCWn2tlCC94nA=="
+								"uidString" : "JgaIYHmrDQCW7fLNCC94nA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[1.3 Process ]]"
+							"string" : "**terminated** - the process has run and finished its execution. It is not managed anymore by the scheduler. It cannot be executed anymore."
 						},
 						{
 							"__type" : "textSnippet",
@@ -208,7 +205,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T13:59:13.529762-03:00"
+									"dateAndTimeString" : "2022-12-05T14:01:51.857708-03:00"
 								}
 							},
 							"editEmail" : {
@@ -219,17 +216,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T13:59:22.164137-03:00"
+									"dateAndTimeString" : "2022-12-05T14:01:56.272131-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "GVLuV3mrDQCWxaNhCC94nA=="
+								"uidString" : "/WYcYXmrDQCW7wCHCC94nA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[1.4 Process Lifetime ]]"
+							"string" : "suspended - the process is not managed by the scheduler: This process is not in one of the scheduler lists or in a semaphore list. The process can become runnable sending it the resume message."
 						},
 						{
 							"__type" : "textSnippet",
@@ -245,7 +242,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T14:04:15.99006-03:00"
+									"dateAndTimeString" : "2022-12-05T14:02:02.928903-03:00"
 								}
 							},
 							"editEmail" : {
@@ -256,128 +253,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T14:04:25.322734-03:00"
+									"dateAndTimeString" : "2022-12-05T14:02:02.928903-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "L5HsaXmrDQCW88N9CC94nA=="
+								"uidString" : "54kZYnmrDQCW8VxkCC94nA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[1.5 Creating processes ]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T14:11:39.90751-03:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T14:12:10.824838-03:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "jZ/ASFGrDQCIdjTIDISMnw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[1.7 Process priorities]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T15:13:56.318932-03:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T15:38:31.252792-03:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "XyVmJ1KrDQCIhQdNDISMnw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[ 1.9 Let us trace better what is happening]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T15:38:37.166302-03:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-03T15:44:01.302032-03:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "d926f1KrDQCIjg3yDISMnw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[1.10  Yielding the computation]] "
+							"string" : "waiting - the process is waiting on a semaphore waiting list. It is not\nmanaged by the scheduler. The process can become runnable when the\nsemaphore releases it."
 						}
 					]
 				},
@@ -389,7 +275,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T14:08:44.893361-03:00"
+						"dateAndTimeString" : "2022-12-05T14:01:07.914807-03:00"
 					}
 				},
 				"editEmail" : {
@@ -400,17 +286,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T13:46:39.268689-03:00"
+						"dateAndTimeString" : "2022-12-05T14:01:07.914807-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qf41PlGrDQCIcHEPDISMnw=="
+					"uidString" : "c6o7XnmrDQCW4weACC94nA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Chapter 1: Concurrent programming in Pharo"
+				"string" : "We define the states in which a process can be:"
 			}
 		]
 	},
@@ -422,7 +308,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-03T14:06:36.595099-03:00"
+			"dateAndTimeString" : "2022-12-05T13:59:23.297102-03:00"
 		}
 	},
 	"editEmail" : {
@@ -433,15 +319,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-03T14:08:26.146036-03:00"
+			"dateAndTimeString" : "2022-12-05T13:59:23.297102-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Concurrent programming in Pharo"
+		"title" : "1.4 Process Lifetime "
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "df92c136-51ab-0d00-8869-280d0c848c9f"
+		"uuid" : "e8b89c58-79ab-0d00-96db-8541082f789c"
 	}
 }

@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T17:24:23.917815-03:00"
+						"dateAndTimeString" : "2022-12-05T13:51:19.101146-03:00"
 					}
 				},
 				"uid" : {
@@ -150,13 +150,233 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "During each loop step, using the expression Processor yield, the current process mentions the\nscheduler that it can relinquish the CPU to give a chance to other processes\nwith the same priority to get executed. "
+				"string" : "During each loop step, using the expression Processor yield, the current process mentions the scheduler that it can relinquish the CPU to give a chance to other processes with the same priority to get executed. "
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-26T23:42:02.924086+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-02T17:47:33.845193-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Slx9FcmqDQCMzBH/B3vy/Q=="
+							},
+							"code" : "[ 1\r\tto: 10\r\tdo: [ :i | \r\t\ti trace;\r\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork.\r[ 101\r\tto: 110\r\tdo: [ :i | \r\t\ti\r\t\t\ttrace;\r\t\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:43:53.034363-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:43:53.034363-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6hcZIXmrDQCWk+LnCC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The output is the following one:"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:44:15.900287-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:44:15.900287-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "jSgMInmrDQCWmjvQCC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "1 101 2 102 3 103 4 104 5 105 6 106 7 107 8 108 9 109 10 110"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:45:17.487867-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:45:20.901989-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qlwlJnmrDQCWmw3nCC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We see that the two processes run concurrently, each outputting a number\nat a time and not producing two numbers in a row. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:45:22.673471-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:45:29.216343-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "2yd4JnmrDQCWnMnICC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We also see that a process has to explicitely give back the execution control to the scheduler using the\nexpression Processor yield. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:45:32.06227-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T13:45:34.695782-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "pdsHJ3mrDQCWnXK7CC94nA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We will explain this with more details in the following. Let us look at what a process is."
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -188,40 +408,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "We say that the active process relinquishes its execution."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-26T23:42:02.924086+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T17:47:33.845193-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Slx9FcmqDQCMzBH/B3vy/Q=="
-				},
-				"code" : "[ 1\r\tto: 10\r\tdo: [ :i | \r\t\ti trace;\r\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork.\r[ 101\r\tto: 110\r\tdo: [ :i | \r\t\ti\r\t\t\ttrace;\r\t\t\ttrace: ' '.\r\t\tProcessor yield ] ] fork"
 			},
 			{
 				"__type" : "textSnippet",
