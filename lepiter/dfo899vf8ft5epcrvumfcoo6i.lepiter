@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:44:33.407242-03:00"
+						"dateAndTimeString" : "2022-12-05T15:18:27.33355-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:44:33.407242-03:00"
+						"dateAndTimeString" : "2022-12-05T15:18:27.33355-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "rju50HqrDQC160aKAsCpqQ=="
+					"uidString" : "3uJgc3qrDQC6fedABH3w4g=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Let us define a little trace that will show the current process executing code. "
+				"string" : "Pharo implements time sharing where each process (green thread) has access to the physical processor during a given amount of time. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:44:28.177951-03:00"
+						"dateAndTimeString" : "2022-12-05T15:18:23.224032-03:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +66,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:44:36.148343-03:00"
+						"dateAndTimeString" : "2022-12-05T15:18:52.243025-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Aw/OJ1KrDQCIiblaDISMnw=="
+					"uidString" : "XSt3cnqrDQC6e41uBH3w4g=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "It will help understanding what is happening. Now when we execute again the snippet above slightly modified:"
+				"string" : "This is the responsibility of the **ProcessorScheduler** and its unique instance **Processor**\nto schedule processes."
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "pictureSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T15:14:04.733156-03:00"
+						"dateAndTimeString" : "2022-12-05T15:19:22.751953-03:00"
 					}
 				},
 				"editEmail" : {
@@ -103,51 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T15:14:58.562333-03:00"
+						"dateAndTimeString" : "2022-12-05T15:20:40.959857-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "+EILKFKrDQCIiyYUDISMnw=="
+					"uidString" : "85eudnqrDQC6hOZABH3w4g=="
 				},
-				"code" : "| trace |\rtrace := [ :message | \r\t('@{1} {2}'\r\t\tformat: {Processor activePriority.\r\t\t\t\tmessage}) crTrace ].\r[ 3 timesRepeat: [ trace value: 3 ] ] forkAt: 12.\r[ 3 timesRepeat: [ trace value: 2 ] ] forkAt: 13.\r[ 3 timesRepeat: [ trace value: 1 ] ] forkAt: 14"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:46:48.645999-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:46:48.645999-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "O0bB2HqrDQC17SHIAsCpqQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We get the following output, which display the priority of the executing process."
+				"url" : "attachments/dfo899x2yg7ubg4k2quedisgq/1.6.png"
 			},
 			{
 				"__type" : "textSnippet",
@@ -163,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:46:54.219405-03:00"
+						"dateAndTimeString" : "2022-12-05T15:23:04.167623-03:00"
 					}
 				},
 				"editEmail" : {
@@ -174,17 +137,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T15:46:54.219405-03:00"
+						"dateAndTimeString" : "2022-12-05T15:23:04.167623-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ufwd2XqrDQC17w5YAsCpqQ=="
+					"uidString" : "vBLhg3qrDQC6jdRoBH3w4g=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "The scheduler maintains **priority lists**, also called **run queues**, of pending processes as well as the currently active process (See Figure 1-2). "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:20:58.650988-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:23:04.17262-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cZZjeHqrDQC6iFXSBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "To get the running process, you can execute: **Processor activeProcess**. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:22:01.987477-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:22:45.073422-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Z2uvf3qrDQC6izJZBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Each time a process is created and scheduled it is added at the end of the run queue corresponding to its priority. The scheduler will take the first process and executes it until a process of higher priority interrupts it or the process gives back control to the processor using the message **yield**."
 			}
 		]
 	},
@@ -196,7 +233,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-03T15:14:00.68804-03:00"
+			"dateAndTimeString" : "2022-12-05T15:18:11.97334-03:00"
 		}
 	},
 	"editEmail" : {
@@ -207,15 +244,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-03T15:38:31.247175-03:00"
+			"dateAndTimeString" : "2022-12-05T15:18:11.97334-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : " 1.9 Let us trace better what is happening"
+		"title" : "1.6 First look at ProcessorScheduler"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "0287cd27-52ab-0d00-8888-4d530c848c9f"
+		"uuid" : "6a987672-7aab-0d00-ba7a-f04d047df0e2"
 	}
 }

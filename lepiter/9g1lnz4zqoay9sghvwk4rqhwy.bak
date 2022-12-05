@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T14:11:45.443874-03:00"
+						"dateAndTimeString" : "2022-12-05T15:24:48.316518-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,118 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T14:11:45.443874-03:00"
+						"dateAndTimeString" : "2022-12-05T15:24:48.316518-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fEEWinqrDQC6kGUDBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "At any time only one process is executing. First of all, the processes are being run according to their priority. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:25:25.704932-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:25:57.432003-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5MJQjHqrDQC6ksa9BH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This priority can be given to a process with the **priority:** message, or **forkAt: ** message sent to a block. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:26:23.84809-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:26:23.84809-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jPfHj3qrDQC6lKdPBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "By default, the priority of a newly created process is the one of the active process. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:24:42.747759-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:26:26.455503-03:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +150,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "There are couple of priorities predefined and can be accessed by sending specific\nmessages to Processor."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:26:49.66915-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:26:49.66915-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pQBJkXqrDQC6lqCJBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "For example, the following snippet is run at the same priority that background user tasks."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -76,6 +224,188 @@
 				"code" : "[ 1 to: 10 do: [ :i | i trace ] ]\nforkAt: Processor userBackgroundPriority"
 			},
 			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:27:40.806517-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:27:40.806517-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YDhelHqrDQC6mlc8BH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The scheduler has process priorities from 10 to 80. Only some of these are named."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:27:55.867103-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:27:55.867103-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2hRElXqrDQC6nNDqBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The programmer is free to use any priority within that range that they see fit. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:27:25.476838-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:27:55.868462-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6nUbk3qrDQC6mOngBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The following table lists all the predefined priorities together with their numerical value and purpose."
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:28:57.189805-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:29:08.698679-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wtHrmHqrDQC6nt6ABH3w4g=="
+				},
+				"url" : "attachments/dfo899u64y3zuj8mcisgk8sbv/1.7.png"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:29:29.577025-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T15:29:29.577025-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IJI2mnqrDQC6oZodBH3w4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Here is an example showing that how to use such named priorities."
+			},
+			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -100,14 +430,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T15:10:27.351098-03:00"
+						"dateAndTimeString" : "2022-12-05T15:31:11.562247-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "8qOFF1KrDQCIf47SDISMnw=="
 				},
-				"code" : "[3 timesRepeat: [3 trace. ' ' trace ]] forkAt: Processor\nuserBackgroundPriority+9.\n[3 timesRepeat: [2 trace. ' ' trace ]] forkAt: Processor\nuserBackgroundPriority + 1."
+				"code" : "[3 timesRepeat: [3 trace. ' ' trace ]] forkAt: Processor\nuserBackgroundPriority.\n[3 timesRepeat: [2 trace. ' ' trace ]] forkAt: Processor\nuserBackgroundPriority - 1."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -134,14 +464,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-03T15:12:38.748009-03:00"
+						"dateAndTimeString" : "2022-12-05T15:31:06.352329-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "MzL7IFKrDQCIg6oHDISMnw=="
 				},
-				"code" : "[3 timesRepeat: [3 trace. ' ' trace ]] forkAt: 12.\n[3 timesRepeat: [2 trace. ' ' trace ]] forkAt: 13.\n[3 timesRepeat: [1 trace. ' ' trace ]] forkAt: 9."
+				"code" : ""
 			},
 			{
 				"__type" : "textSnippet",
