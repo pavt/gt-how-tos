@@ -653,6 +653,43 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T17:42:00.462977-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T17:43:06.820564-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6wyGc3yrDQCtyDf/DiMyXQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[2.1 Understanding semaphores - Part 1]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2022-12-05T17:08:02.062372-03:00"
 								}
 							},
@@ -664,7 +701,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T17:08:11.419699-03:00"
+									"dateAndTimeString" : "2022-12-05T19:37:21.868632-03:00"
 								}
 							},
 							"uid" : {
@@ -674,7 +711,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[2.1 Understanding semaphores]] "
+							"string" : "[[2.1 Understanding semaphores - Part  2]] "
 						},
 						{
 							"__type" : "textSnippet",
