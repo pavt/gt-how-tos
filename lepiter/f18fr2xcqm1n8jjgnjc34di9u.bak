@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T17:24:23.917815-03:00"
+						"dateAndTimeString" : "2022-12-05T13:51:19.101146-03:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "During each loop step, using the expression Processor yield, the current process mentions the\nscheduler that it can relinquish the CPU to give a chance to other processes\nwith the same priority to get executed. "
+				"string" : "During each loop step, using the expression Processor yield, the current process mentions the scheduler that it can relinquish the CPU to give a chance to other processes with the same priority to get executed. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -408,114 +408,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "We say that the active process relinquishes its execution."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T18:42:46.87286-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T18:42:50.929091-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "cq1z9ECrDQCmaCZrDidEtg=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "### Creating processes"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T18:42:55.328708-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T18:51:54.467221-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "1pkV9UCrDQCmaW6BDidEtg=="
-				},
-				"code" : "| pr |\npr := [ 1 to: 10 do: [ :i | i traceCr ] ] newProcess.\npr resume"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T19:00:02.291571-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-02T19:00:03.244054-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "t38lMkGrDQCmopiPDidEtg=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "## Passing arguments to a process"
 			},
 			{
 				"__type" : "pharoSnippet",
