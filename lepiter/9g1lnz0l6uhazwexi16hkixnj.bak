@@ -653,43 +653,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T17:08:02.062372-03:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T17:42:50.182261-03:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "12BJ03urDQCsdfrPDiMyXQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[2.1 Understanding semaphores - Part  22]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2022-12-05T17:42:00.462977-03:00"
 								}
 							},
@@ -712,6 +675,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[2.1 Understanding semaphores - Part 1]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T17:08:02.062372-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-05T19:37:21.868632-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "12BJ03urDQCsdfrPDiMyXQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[2.1 Understanding semaphores - Part  2]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -764,7 +764,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T17:06:25.820575-03:00"
+									"dateAndTimeString" : "2022-12-06T08:14:02.578337-03:00"
 								}
 							},
 							"editEmail" : {
@@ -775,17 +775,54 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-05T17:06:25.820575-03:00"
+									"dateAndTimeString" : "2022-12-06T08:14:14.611363-03:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "xteG9XurDQCskRxVDiMyXQ=="
+								"uidString" : "zOFUo4irDQCBCk1BBE4pfA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "[[2.3 wait and signal interplay]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-06T09:12:23.221796-03:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-06T09:12:28.133868-03:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "jtPvc4mrDQCBNtONBE4pfA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[2.4 A key question about signal]] "
 						}
 					]
 				},

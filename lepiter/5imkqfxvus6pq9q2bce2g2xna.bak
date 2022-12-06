@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T17:18:12.2974-03:00"
+						"dateAndTimeString" : "2022-12-06T08:09:06.322711-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,44 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T17:18:12.2974-03:00"
+						"dateAndTimeString" : "2022-12-06T08:09:06.322711-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0HO+kYirDQCA/jfVBE4pfA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Before continuing, let us play with semaphores. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:08:45.531988-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:09:06.32508-03:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Open a transcript and inspect the following piece of code: It schedules two processes and make them both wait on a semaphore."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -66,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T17:18:25.296091-03:00"
+						"dateAndTimeString" : "2022-12-06T08:09:54.426343-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "5etVIHyrDQCsxRM3DiMyXQ=="
 				},
-				"code" : "| semaphore |\nsemaphore := Semaphore new.\r[  \"Do a first job ...\"\r'Job1 started' crTrace.\rsemaphore wait.\r'Job1 finished' crTrace ] fork.\r\r[ \"Do a second job ...\"\n'Job2 started' crTrace.\nsemaphore wait.\n'Job2 finished' crTrace\n] fork."
+				"code" : "| semaphore |\nsemaphore := Semaphore new.\r\r[  \"Do a first job ...\"\r'Job1 started' crTrace.\rsemaphore wait.\r'Job1 finished' crTrace ] fork.\r\r[ \"Do a second job ...\"\n'Job2 started' crTrace.\nsemaphore wait.\n'Job2 finished' crTrace\n] fork."
 			},
 			{
 				"__type" : "textSnippet",
@@ -89,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T17:18:28.775948-03:00"
+						"dateAndTimeString" : "2022-12-05T17:18:54.760011-03:00"
 					}
 				},
 				"editEmail" : {
@@ -100,17 +137,202 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-05T17:18:28.775948-03:00"
+						"dateAndTimeString" : "2022-12-05T17:18:54.760011-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "TkSeIHyrDQCsx/pIDiMyXQ=="
+					"uidString" : "aK4qInyrDQCs0/zjDiMyXQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "You should see in the transcript the following:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T17:18:52.988974-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-05T17:18:54.762623-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WqMPInyrDQCs0C40DiMyXQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "'Job1 started'\n'Job2 started'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:10:33.261335-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:11:37.418358-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/ArtloirDQCBAuZfBE4pfA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "What you see is that the two processes stopped. They did not finish their job."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:10:27.388477-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:12:32.422095-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Nvh9loirDQCBAJ/XBE4pfA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "When a semaphor receives a **wait** message, it suspends the process sending the message and adds the process to its pending list."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:12:53.642338-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:12:53.642338-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8RtLn4irDQCBBoosBE4pfA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Now in the inspector on the semaphore execute self signal. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:12:42.280067-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-06T08:12:53.64687-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "abGGnoirDQCBBM3DBE4pfA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This schedules one of the waiting process and one of the job will finish its task. If we do not send a new signal message to the semaphore, the second waiting process will never be scheduled."
 			}
 		]
 	},
