@@ -3,7 +3,79 @@
 	"__type" : "page",
 	"children" : {
 		"__type" : "snippets",
-		"items" : [ ]
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-07T19:52:05.496393-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-07T19:52:07.449459-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4BAYgKarDQCSSKoGAECViA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-07T19:52:09.96168-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-07T19:52:10.301068-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4yTtgaarDQCSTfF7AECViA=="
+				},
+				"code" : "| trace semaphore p1 p2 |\rsemaphore := Semaphore new.\rtrace := [ :message | \r\t('@{1} {2}'\r\t\tformat: {Processor activePriority.\r\t\t\t\tmessage}) crTrace ].\rp1 := [ trace value: 'Process 1a waits for signal on semaphore'.\r\tsemaphore wait.\r\ttrace value: 'Process 1b received signal and terminates' ] forkAt: 20.\rp2 := [ trace value: 'Process 2a up to signalling semaphore'.\r\tsemaphore signal.\r\ttrace value: 'Process 2b continues and terminates' ] forkAt: 30"
+			}
+		]
 	},
 	"createEmail" : {
 		"__type" : "email",
